@@ -1,0 +1,187 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+    font-family: Arial;
+}
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  min-width: 100%;
+  background: url("https://media.8ch.net/agruta/src/1464659724437.jpg");
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+a{text-decoration: none;}
+
+.logo__home{
+    width: 50px;
+    height: 50px;
+}
+
+.header {
+  width: 30%;
+  border: 5px solid green;
+    border-radius: 10px;
+  position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.title__form {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+    text-align: center;  
+    color: aquamarine;
+}
+.title__name{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: 1px 1px 1px white;
+}
+
+.input__box {
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    text-shadow: 2px 2px 20px yellow;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+input:hover {
+    color: forestgreen;
+    box-shadow: 1px 1px 20px green;
+    padding: 10px;
+}
+.input__sub {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/*SECOND-TWO*/
+.roman {
+    opacity: .9;
+    border-radius: 20px;
+    background: #fff;
+    height: auto;
+
+}
+.ckeck, .pic, .describe {
+    float: left;
+}
+.ckeck {
+    position: relative;
+    width: 10%;
+    height: 300px; 
+}
+.ckeck input {
+    position: absolute;
+    top: 45%;
+    left: 38%;
+}
+.pic {
+    width: 20%;
+}
+img{ 
+width: 100%; 
+height: 50%; 
+}
+.describe {
+    width: 70%;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 15px;
+}
+h2{
+    font-family: 'Gloria Hallelujah', cursive; 
+}
+.describe p {
+    font-family: 'Pacifico', cursive;
+}
+.buy__book{
+    margin: 50px  0;
+    text-align: center;
+}
+button{
+    padding: 20px;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+button:hover{
+    color: red;
+    background: yellow;
+}
+input {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    text-shadow: 2px 2px 20px yellow;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+/*--------categoty-----------*/
+.title__books{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(50,80,248,1);
+    margin:50px 0;
+    font-family: 'Gloria Hallelujah', cursive; 
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px #fff;
+    
+}
+.category{
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: mediumvioletred;
+  
+}
+.romany__books, .crimenal__book, .cince__book {
+    border: 2px solid green;
+    margin-bottom: 50px;
+    border-radius: 20px;
+     background: linear-gradient(to right, rgba(252,234,187,1) 0%, rgba(251,223,147,0.96) 11%, rgba(248,181,0,0.81) 58%, rgba(248,181,0,0.68) 100%);
+    transition: all .2s ease;
+    font-family: 'Pacifico', cursive;
+}
+ .cince__book:hover{
+   background: rgba(210,255,82,1);
+     color: darkgoldenrod;
+}
+.romany__books:hover{
+    background: rgba(210,255,82,1);
+     color: darkgoldenrod;
+}
+.crimenal__book:hover{
+    background: rgba(210,255,82,1);
+     color: darkgoldenrod;
+}
